@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // under a repo name. Use '/' if deploying to a custom domain or Vercel/Netlify.
 export default defineConfig({
   plugins: [react()],
-  base: '/astrofinance-oracle/',
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: false,
